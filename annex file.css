@@ -1,0 +1,90 @@
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+<!---<div id="login-form" class="login-page">
+<div class="form-box">
+    <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" onclick="login()" class="toggle-btn">log in</button>
+        <button
+        type="button" onclick="register()" class="toggle-btn">register</button>
+    </div>
+    <form id="login" class="input-group-login">
+        <input type="text" class="input-field" placeholder="Email id" required>
+        <input type="password" class="input-field" placeholder="Enter password" required>
+        <input type="checkbox" class="checkbox"><span>Remeber password</span>
+        <button type="submit" class="submit-btn">Log in</button>
+    </form>
+    <form id="register" class="input-group-register">
+        <input type="text" class="input-field" placeholder="First Name" required>
+        <input type="text" class="input-field" placeholder="Last Name" required>
+        <input type="email" class="input-field" placeholder="Email Id" required>
+        <input type="password" class="input-field" placeholder="Enter Password" required>
+        <input type="password" class="input" placeholder=" Confirm Password" required>
+        <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+        <button type="submit" class="submit-btn">Register</button>
+    </form>
+</div>
+</div>
+</div>
+<script>
+var x=document. getElementById('login');
+var x=document. getElementById('register');
+var x=document. getElementById('btn');
+function register()
+{
+x.style.left='-400px';
+y.style.left='50px';
+z.style.left='110px';
+}
+function login()
+{
+x.style.left='50px';
+y.style.left='450px';
+z.style.left='0px'; 
+}
+</script>
+<script>
+var modal = document.getElementById('login-form');
+window.onclick = function(event)
+{
+if (event.target == modal)
+{
+    modal.style.display = "none";
+}
+}
+</script>--->
